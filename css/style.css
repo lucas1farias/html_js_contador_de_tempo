@@ -1,0 +1,38 @@
+
+
+body {
+  background-color: #222;
+}
+    
+main {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.clock {
+  box-shadow: 0 0 5px 5px white;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+div span {
+  font-size: 3rem;
+}
+
+div span:nth-child(1) {
+  color: aqua;
+  text-shadow: 0 0 5px aqua;
+}
+
+div span:nth-child(2) {
+  color: #0f0;
+  text-shadow: 0 0 5px #0f0;
+}
+
+div span:nth-child(3) {
+  color: magenta;
+  text-shadow: 0 0 5px magenta;
+}
